@@ -28,4 +28,20 @@ public class Booking {
     public void setStatus(String status) {
         this.status = status;
     }
+
+    public int getBookingId() {
+        return bookingId;
+    }
+
+    public void setBookingId(int bookingId) {
+        this.bookingId = bookingId;
+    }
+
+    public void setMember(Member member) {
+        this.member = member;
+    }
+
+    public void setLesson(ExerciseLesson lesson) {
+        this.lesson = lesson;
+    }
 }
